@@ -1,0 +1,6 @@
+Tarea: 
+    1. Crea un array de NumPy con los números del 1 al 20 y calcula el promedio, la varianza y la desviación estándar.
+    2. Genera un array aleatorio de 50 elementos entre 0 y 100. Encuentra los valores máximos, mínimos y su posición (índices).
+    3. Crea dos arrays de 10 elementos cada uno y realiza las siguientes operaciones: suma, resta, multiplicación y división elemento por elemento.
+    4. Usa una función universal de NumPy como `np.sin` o `np.log` para operar sobre un array de 10 elementos. Interpreta los resultados.
+    5. Genera una matriz de 5x5 con números aleatorios entre 1 y 10. Calcula la suma y el promedio de los valores de cada fila y de cada columna.
