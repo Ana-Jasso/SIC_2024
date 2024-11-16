@@ -1,0 +1,106 @@
+CustomerID,Name,Email,Age,Gender,SignupDate,LastPurchaseAmount,Country,HasActiveSubscription
+CUST-1,Danielle O'Neil,user1@example.com,25,F,,200,,1
+CUST-2,,,,F,INVALID,,Canada,
+CUST-3,Charlie Brown,user3@example.com,,Male,15-03-2022,200,United States,1
+CUST-4,,user4@example.com,200,Unknown,INVALID,,CAN,0
+CUST-5,,user5@example.com,30,,,300.5,Canada,1
+CUST-6,Bob Smith,user6@example.com,,M,2022/02/15,,,0
+CUST-7,Charlie Brown,,25,Female,INVALID,INVALID,United States,
+CUST-8,Charlie Brown,user8@example.com,35,M,2022/02/15,100,US,1
+CUST-9,Charlie Brown,user9@example.com,40,Unknown,15-03-2022,,US,
+CUST-10,,user10@example.com,25,Female,2022-01-01,,United States,1
+CUST-11,Danielle O'Neil,user11@example.com,25,Unknown,15-03-2022,100,,0
+CUST-12,Charlie Brown,user12@example.com,30,F,INVALID,INVALID,United States,
+CUST-13,Eva Green,,200,Female,2022/02/15,200,CAN,1
+CUST-14,,user14@example.com,200,F,2022/02/15,,CAN,0
+CUST-15,Bob Smith,user15@example.com,-5,M,,100,US,
+CUST-16,Danielle O'Neil,user16@example.com,30,M,2022/02/15,300.5,Canada,
+CUST-17,Eva Green,user17@example.com,35,Female,,100,,1
+CUST-18,Eva Green,user18@example.com,200,Female,2022-01-01,300.5,US,1
+CUST-19,Bob Smith,user19@example.com,40,,INVALID,INVALID,Canada,1
+CUST-20,Danielle O'Neil,user20@example.com,,Unknown,,200,Canada,0
+CUST-21,,user21@example.com,30,,2022-01-01,100,CAN,1
+CUST-22,Alice Johnson,user22@example.com,,Unknown,2022/02/15,-50,USA,
+CUST-23,Danielle O'Neil,user23@example.com,25,,2022/02/15,,USA,
+CUST-24,Bob Smith,user24@example.com,40,F,2022-01-01,INVALID,United States,1
+CUST-25,Eva Green,user25@example.com,40,Female,2022/02/15,100,CAN,1
+CUST-26,,user26@example.com,25,M,2022-01-01,,Canada,
+CUST-27,Danielle O'Neil,user27@example.com,30,Unknown,,100,,0
+CUST-28,Alice Johnson,,25,Unknown,,300.5,USA,1
+CUST-29,Alice Johnson,user29@example.com,,M,2022-01-01,100,Canada,1
+CUST-30,Charlie Brown,,-5,,,-50,USA,
+CUST-31,Charlie Brown,user31@example.com,40,Unknown,,100,USA,1
+CUST-32,Bob Smith,user32@example.com,50,F,,100,USA,0
+CUST-33,Danielle O'Neil,user33@example.com,50,Female,15-03-2022,-50,,
+CUST-34,Danielle O'Neil,user34@example.com,,M,INVALID,INVALID,CAN,1
+CUST-35,Eva Green,user35@example.com,35,Female,2022/02/15,100,,
+CUST-36,Eva Green,user36@example.com,200,Unknown,15-03-2022,-50,US,1
+CUST-37,Eva Green,user37@example.com,25,Unknown,,,Canada,1
+CUST-38,Charlie Brown,user38@example.com,25,M,2022-01-01,300.5,CAN,1
+CUST-39,Danielle O'Neil,,35,F,,300.5,CAN,0
+CUST-40,Danielle O'Neil,user40@example.com,35,Male,INVALID,100,CAN,0
+CUST-41,Alice Johnson,user41@example.com,,M,,INVALID,CAN,
+CUST-42,Charlie Brown,user42@example.com,,Male,2022-01-01,INVALID,,1
+CUST-43,,user43@example.com,35,,INVALID,,CAN,1
+CUST-44,Charlie Brown,user44@example.com,40,Male,,100,United States,0
+CUST-45,,user45@example.com,,F,INVALID,300.5,Canada,1
+CUST-46,Alice Johnson,user46@example.com,-5,,2022/02/15,INVALID,CAN,0
+CUST-47,Bob Smith,user47@example.com,,Male,2022/02/15,100,Canada,1
+CUST-48,Danielle O'Neil,user48@example.com,25,,,INVALID,United States,
+CUST-49,Alice Johnson,user49@example.com,,Male,INVALID,-50,United States,1
+CUST-50,Danielle O'Neil,user50@example.com,40,F,2022-01-01,INVALID,Canada,1
+CUST-51,Eva Green,user51@example.com,35,Male,,300.5,USA,0
+CUST-52,Bob Smith,user52@example.com,25,Male,2022/02/15,200,US,1
+CUST-53,Bob Smith,user53@example.com,,Male,2022/02/15,,USA,1
+CUST-54,Alice Johnson,user54@example.com,40,M,,,USA,0
+CUST-55,Bob Smith,user55@example.com,-5,M,INVALID,300.5,,
+CUST-56,,user56@example.com,,M,2022/02/15,INVALID,USA,
+CUST-57,Bob Smith,user57@example.com,40,F,INVALID,100,CAN,0
+CUST-58,Danielle O'Neil,,-5,,2022/02/15,INVALID,,0
+CUST-59,Danielle O'Neil,user59@example.com,35,Unknown,2022/02/15,300.5,,0
+CUST-60,Danielle O'Neil,user60@example.com,,Male,15-03-2022,,United States,0
+CUST-61,Danielle O'Neil,user61@example.com,-5,Male,2022/02/15,INVALID,USA,0
+CUST-62,,user62@example.com,25,F,2022-01-01,,United States,
+CUST-63,Charlie Brown,user63@example.com,35,Male,,100,Canada,
+CUST-64,Eva Green,user64@example.com,25,M,,,US,0
+CUST-65,Alice Johnson,user65@example.com,50,Unknown,INVALID,,,1
+CUST-66,Danielle O'Neil,user66@example.com,30,Female,2022/02/15,200,Canada,0
+CUST-67,Bob Smith,user67@example.com,,Male,2022-01-01,200,Canada,1
+CUST-68,Danielle O'Neil,user68@example.com,-5,M,INVALID,-50,CAN,0
+CUST-69,Bob Smith,user69@example.com,30,Female,15-03-2022,200,US,0
+CUST-70,Eva Green,user70@example.com,30,Unknown,INVALID,,Canada,
+CUST-71,Eva Green,user71@example.com,-5,Female,INVALID,300.5,Canada,1
+CUST-72,Eva Green,user72@example.com,35,M,2022/02/15,,US,1
+CUST-73,Bob Smith,user73@example.com,,,15-03-2022,300.5,US,
+CUST-74,Danielle O'Neil,user74@example.com,50,,INVALID,300.5,Canada,
+CUST-75,Eva Green,,25,Female,2022-01-01,200,US,
+CUST-76,,user76@example.com,40,F,2022-01-01,INVALID,Canada,
+CUST-77,Bob Smith,user77@example.com,25,Female,,100,Canada,1
+CUST-78,Bob Smith,,40,Male,15-03-2022,200,CAN,1
+CUST-79,Danielle O'Neil,user79@example.com,25,Male,15-03-2022,200,USA,0
+CUST-80,Bob Smith,user80@example.com,-5,,,INVALID,Canada,0
+CUST-81,Bob Smith,user81@example.com,50,F,INVALID,100,United States,
+CUST-82,Eva Green,user82@example.com,,M,15-03-2022,,,
+CUST-83,Danielle O'Neil,user83@example.com,40,Male,2022-01-01,-50,USA,
+CUST-84,Eva Green,user84@example.com,,,2022-01-01,-50,USA,0
+CUST-85,Eva Green,user85@example.com,,Unknown,2022/02/15,,USA,0
+CUST-86,Danielle O'Neil,user86@example.com,,,15-03-2022,200,CAN,0
+CUST-87,Alice Johnson,user87@example.com,200,Male,INVALID,100,Canada,0
+CUST-88,Eva Green,user88@example.com,35,Male,,200,CAN,0
+CUST-89,,user89@example.com,25,,,300.5,Canada,0
+CUST-90,,user90@example.com,,M,INVALID,200,CAN,0
+CUST-91,Bob Smith,user91@example.com,25,Female,2022/02/15,200,CAN,
+CUST-92,,user92@example.com,,Male,,,,
+CUST-93,Bob Smith,user93@example.com,40,,15-03-2022,,United States,
+CUST-94,Alice Johnson,,35,,2022/02/15,,CAN,
+CUST-95,Danielle O'Neil,user95@example.com,35,F,15-03-2022,-50,,0
+CUST-96,Danielle O'Neil,user96@example.com,-5,Female,2022-01-01,300.5,US,1
+CUST-97,Danielle O'Neil,user97@example.com,200,Unknown,2022/02/15,,United States,0
+CUST-98,,,-5,M,,100,CAN,1
+CUST-99,Alice Johnson,user99@example.com,-5,Unknown,2022/02/15,-50,USA,
+CUST-100,,user100@example.com,-5,Female,2022/02/15,INVALID,US,0
+CUST-1,,,-5,Female,2022/02/15,100,US,
+CUST-2,Alice Johnson,user102@example.com,-5,Female,2022/02/15,100,,0
+CUST-3,Alice Johnson,user103@example.com,50,Unknown,15-03-2022,,US,
+CUST-4,Alice Johnson,user104@example.com,35,Female,2022-01-01,INVALID,United States,1
+CUST-5,Alice Johnson,user105@example.com,-5,,INVALID,INVALID,CAN,1
