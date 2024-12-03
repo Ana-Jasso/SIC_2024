@@ -1,0 +1,34 @@
+Ejercicio 1: Comparación de dos tratamientos médicos
+Problema: Un investigador quiere comparar la eficacia de dos tratamientos médicos, A y B, para una enfermedad. Se reclutaron dos grupos de pacientes, y cada grupo recibió uno de los tratamientos. Se midió la mejora en los síntomas después de 4 semanas para cada paciente.
+
+Pregunta: ¿Qué prueba estadística debería utilizar el investigador para determinar si hay una diferencia significativa en la mejora de los síntomas entre los dos tratamientos?
+
+= Prueba t de Student para dos muestras independientes
+
+Ejercicio 2: Evaluación del rendimiento antes y después de un programa de capacitación
+Problema: Una empresa realizó un programa de capacitación para mejorar las habilidades de sus empleados. Se midió el rendimiento de los empleados en una tarea específica antes y después de la capacitación.
+
+Pregunta: ¿Qué método estadístico es el más apropiado para analizar si el programa de capacitación tuvo un efecto significativo en el rendimiento de los empleados?
+
+= Prueba t de Student para muestras pareadas
+
+Ejercicio 3: Análisis de preferencias de consumidores
+Problema: Una empresa de bebidas quiere saber si la preferencia por su nuevo sabor de bebida varía según el grupo de edad (jóvenes, adultos, mayores). Recogieron datos de preferencias de un grupo representativo de consumidores de cada categoría de edad.
+
+Pregunta: ¿Cuál es la prueba estadística más adecuada para determinar si la preferencia por el nuevo sabor depende del grupo de edad?
+
+= Prueba de Chi-cuadrada para una tabla de contingencia de dos factores
+
+Ejercicio 4: Estudio de la uniformidad en la fabricación
+Problema: Una fábrica produce lotes de tornillos y necesita asegurar que el peso de los tornillos es consistente. Se toma una muestra de tornillos de tres máquinas diferentes y se pesa cada tornillo.
+
+Pregunta: ¿Qué herramienta estadística debería usar la fábrica para determinar si hay diferencias significativas en el peso medio de los tornillos producidos por las tres máquinas?
+
+= Ejemplo de ANOVA
+
+Ejercicio 5: Evaluación de la distribución de datos
+Problema: Un biólogo está estudiando la distribución de una especie de peces en un lago. Recolecta datos sobre el número de peces en diferentes áreas del lago y quiere saber si estos datos se ajustan a una distribución esperada basada en modelos ecológicos previos.
+
+Pregunta: ¿Qué prueba estadística debería utilizar el biólogo para evaluar si la distribución observada de peces sigue la distribución esperada según los modelos ecológicos?
+
+= Prueba de Chi-cuadrada de una tabla unidireccional
