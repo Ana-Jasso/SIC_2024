@@ -1,0 +1,33 @@
+Preguntas para Reflexión sobre KNN:
+¿Qué ocurre si utilizas un valor de k muy pequeño para el modelo KNN?
+
+Un valor de k muy pequeño puede hacer que el modelo sea demasiado sensible al ruido en los datos, lo que aumenta el riesgo de sobreajuste. La precisión podría ser alta en entrenamiento, pero baja en datos de prueba. La sensibilidad y la especificidad pueden fluctuar de manera errática debido a la influencia de puntos atípicos.
+
+¿Cómo afecta un valor de k muy grande al rendimiento del modelo KNN?
+
+Un valor alto de k hace que el modelo generalice más, lo que puede llevar a un bajo ajuste. Esto suaviza la frontera de decisión y reduce el impacto de los puntos individuales, pero podría ignorar detalles importantes del dataset, disminuyendo la precisión.
+
+¿Qué observas en las métricas de evaluación (precisión, sensibilidad) a medida que k aumenta gradualmente?
+
+Al incrementar k, es común observar un aumento en la estabilidad de las métricas, pero a costa de una ligera disminución en precisión y sensibilidad si k es demasiado grande. Esto ocurre porque el modelo prioriza la generalización sobre la adaptación a los datos específicos.
+
+¿Qué cambios observas en los resultados al variar la métrica de distancia en el modelo KNN?
+
+Cambiar la métrica de distancia puede modificar cómo se identifican los vecinos más cercanos. Por ejemplo, la distancia Manhattan puede ser más adecuada para datos con relaciones independientes entre características, mientras que la distancia Euclidiana puede funcionar mejor para relaciones continuas y geométricas. Esto afecta la precisión y puede destacar patrones específicos del dataset.
+
+Preguntas para Reflexión sobre SVM:
+¿Qué efectos observas al modificar el parámetro C en un modelo SVM?
+
+Un C alto da más peso a clasificar correctamente cada punto, lo que puede conducir a sobreajuste. Un C bajo permite márgenes más amplios, priorizando la generalización pero aumentando el riesgo de bajo ajuste.
+
+¿Cómo afectan los diferentes kernels (lineal, polinomial, RBF) al rendimiento del modelo?
+
+El kernel lineal funciona mejor en datos linealmente separables, mientras que el polinomial y RBF son más efectivos para capturar relaciones complejas y no lineales. El RBF suele superar a los demás en datasets con patrones complejos, pero a costa de mayor tiempo de cálculo.
+
+¿Cómo afecta la escala de los datos al rendimiento del modelo SVM?
+
+Sin escalar los datos, las características con valores mayores dominarán el cálculo de la frontera de decisión, lo que puede reducir la precisión del modelo. La normalización asegura que todas las características contribuyan de manera equitativa.
+
+¿Qué impacto tiene el parámetro gamma en un kernel RBF de SVM?
+
+Un gamma alto hace que el modelo ajuste la frontera de decisión muy cerca de los puntos de entrenamiento, lo que puede causar sobreajuste. Un gamma bajo crea una frontera más suave y general, lo que puede llevar a bajo ajuste si no captura los patrones correctamente.
